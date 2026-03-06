@@ -16,7 +16,7 @@ export function App({ apiKey, model }: AppProps) {
         <Text>{colors.muted(` (${model})`)}</Text>
       </Box>
       <Box paddingX={1} marginBottom={1}>
-        <Text>{colors.muted('Type a message to chat. "exit" to quit.')}</Text>
+        <Text>{colors.muted('Type a message to chat. "ctrl+c" to quit.')}</Text>
       </Box>
       <REPL apiKey={apiKey} model={model} />
     </Box>
