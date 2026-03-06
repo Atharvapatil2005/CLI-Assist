@@ -13,7 +13,7 @@ export function createCLI() {
     .option(
       "-m, --model <model>",
       "Model to use via OpenRouter",
-      "openrouter/free"
+      "openrouter"
     )
     .action((options) => {
       const apiKey = process.env.OPENROUTER_API_KEY;
