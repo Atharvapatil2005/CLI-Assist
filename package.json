@@ -1,9 +1,9 @@
 {
-  "name": "youtube-cc",
+  "name": "assistance",
   "version": "1.0.0",
   "type": "module",
   "bin": {
-    "cc": "./dist/index.js"
+    "assist": "./dist/index.js"
   },
   "scripts": {
     "dev": "tsx src/index.ts",
@@ -28,4 +28,5 @@
     "tsx": "^4.19.0",
     "typescript": "^5.5.0"
   }
+  
 }

@@ -20,8 +20,8 @@ export class OpenRouterClient {
       headers: {
         Authorization: `Bearer ${this.apiKey}`,
         "Content-Type": "application/json",
-        "HTTP-Referer": "https://github.com/youtube-cc",
-        "X-Title": "youtube-cc",
+        "HTTP-Referer": "https://github.com/Atharvapatil2005",
+        "X-Title": "code-complete-assist",
       },
       body: JSON.stringify({ ...request, stream: true }),
     });

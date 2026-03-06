@@ -7,7 +7,7 @@ export function createCLI() {
   const program = new Command();
 
   program
-    .name("coder")
+    .name("assist")
     .description("A simplified Coding assistant - AI coding assistant in your terminal")
     .version("1.0.0")
     .option(
